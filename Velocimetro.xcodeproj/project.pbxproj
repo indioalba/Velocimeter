@@ -47,6 +47,7 @@
 		6494779A1C71F2F9004CAD43 /* VelocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocimetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6494779E1C71F2F9004CAD43 /* VelocimetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocimetroUITests.swift; sourceTree = "<group>"; };
 		649477A01C71F2F9004CAD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649477AC1C71F44A004CAD43 /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Velocimetro.playground; path = ../Velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		649477721C71F2F9004CAD43 = {
 			isa = PBXGroup;
 			children = (
+				649477AC1C71F44A004CAD43 /* Velocimetro.playground */,
 				6494777D1C71F2F9004CAD43 /* Velocimetro */,
 				649477921C71F2F9004CAD43 /* VelocimetroTests */,
 				6494779D1C71F2F9004CAD43 /* VelocimetroUITests */,
