@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6494777F1C71F2F9004CAD43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494777E1C71F2F9004CAD43 /* AppDelegate.swift */; };
-		649477811C71F2F9004CAD43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649477801C71F2F9004CAD43 /* ViewController.swift */; };
-		649477841C71F2F9004CAD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649477821C71F2F9004CAD43 /* Main.storyboard */; };
-		649477861C71F2F9004CAD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649477851C71F2F9004CAD43 /* Assets.xcassets */; };
-		649477891C71F2F9004CAD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649477871C71F2F9004CAD43 /* LaunchScreen.storyboard */; };
-		649477941C71F2F9004CAD43 /* VelocimetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649477931C71F2F9004CAD43 /* VelocimetroTests.swift */; };
-		6494779F1C71F2F9004CAD43 /* VelocimetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494779E1C71F2F9004CAD43 /* VelocimetroUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		649477901C71F2F9004CAD43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6494777B1C71F2F9004CAD43 /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velocimetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6494777E1C71F2F9004CAD43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		649477801C71F2F9004CAD43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		649477831C71F2F9004CAD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		649477851C71F2F9004CAD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		649477881C71F2F9004CAD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6494778A1C71F2F9004CAD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6494778F1C71F2F9004CAD43 /* VelocimetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocimetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		649477931C71F2F9004CAD43 /* VelocimetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocimetroTests.swift; sourceTree = "<group>"; };
-		649477951C71F2F9004CAD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6494779A1C71F2F9004CAD43 /* VelocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocimetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6494779E1C71F2F9004CAD43 /* VelocimetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocimetroUITests.swift; sourceTree = "<group>"; };
-		649477A01C71F2F9004CAD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6494777B1C71F2F9004CAD43 /* Velocimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Velocimetro.app; path = "/Users/manuel/Documents/CursoSwift/Velocimetro/Velocimetro/build/Debug-iphoneos/Velocimetro.app"; sourceTree = "<absolute>"; };
+		6494778F1C71F2F9004CAD43 /* VelocimetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VelocimetroTests.xctest; path = "/Users/manuel/Documents/CursoSwift/Velocimetro/Velocimetro/build/Debug-iphoneos/VelocimetroTests.xctest"; sourceTree = "<absolute>"; };
+		6494779A1C71F2F9004CAD43 /* VelocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VelocimetroUITests.xctest; path = "/Users/manuel/Documents/CursoSwift/Velocimetro/Velocimetro/build/Debug-iphoneos/VelocimetroUITests.xctest"; sourceTree = "<absolute>"; };
 		649477AC1C71F44A004CAD43 /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Velocimetro.playground; path = ../Velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,52 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				649477AC1C71F44A004CAD43 /* Velocimetro.playground */,
-				6494777D1C71F2F9004CAD43 /* Velocimetro */,
-				649477921C71F2F9004CAD43 /* VelocimetroTests */,
-				6494779D1C71F2F9004CAD43 /* VelocimetroUITests */,
-				6494777C1C71F2F9004CAD43 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6494777C1C71F2F9004CAD43 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6494777B1C71F2F9004CAD43 /* Velocimetro.app */,
-				6494778F1C71F2F9004CAD43 /* VelocimetroTests.xctest */,
-				6494779A1C71F2F9004CAD43 /* VelocimetroUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6494777D1C71F2F9004CAD43 /* Velocimetro */ = {
-			isa = PBXGroup;
-			children = (
-				6494777E1C71F2F9004CAD43 /* AppDelegate.swift */,
-				649477801C71F2F9004CAD43 /* ViewController.swift */,
-				649477821C71F2F9004CAD43 /* Main.storyboard */,
-				649477851C71F2F9004CAD43 /* Assets.xcassets */,
-				649477871C71F2F9004CAD43 /* LaunchScreen.storyboard */,
-				6494778A1C71F2F9004CAD43 /* Info.plist */,
-			);
-			path = Velocimetro;
-			sourceTree = "<group>";
-		};
-		649477921C71F2F9004CAD43 /* VelocimetroTests */ = {
-			isa = PBXGroup;
-			children = (
-				649477931C71F2F9004CAD43 /* VelocimetroTests.swift */,
-				649477951C71F2F9004CAD43 /* Info.plist */,
-			);
-			path = VelocimetroTests;
-			sourceTree = "<group>";
-		};
-		6494779D1C71F2F9004CAD43 /* VelocimetroUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6494779E1C71F2F9004CAD43 /* VelocimetroUITests.swift */,
-				649477A01C71F2F9004CAD43 /* Info.plist */,
-			);
-			path = VelocimetroUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +150,7 @@
 				Base,
 			);
 			mainGroup = 649477721C71F2F9004CAD43;
-			productRefGroup = 6494777C1C71F2F9004CAD43 /* Products */;
+			productRefGroup = 649477721C71F2F9004CAD43;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -231,9 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649477891C71F2F9004CAD43 /* LaunchScreen.storyboard in Resources */,
-				649477861C71F2F9004CAD43 /* Assets.xcassets in Resources */,
-				649477841C71F2F9004CAD43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649477811C71F2F9004CAD43 /* ViewController.swift in Sources */,
-				6494777F1C71F2F9004CAD43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649477941C71F2F9004CAD43 /* VelocimetroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6494779F1C71F2F9004CAD43 /* VelocimetroUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,25 +221,6 @@
 			targetProxy = 6494779B1C71F2F9004CAD43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		649477821C71F2F9004CAD43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				649477831C71F2F9004CAD43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		649477871C71F2F9004CAD43 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				649477881C71F2F9004CAD43 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		649477A11C71F2F9004CAD43 /* Debug */ = {
